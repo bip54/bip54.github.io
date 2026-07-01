@@ -79,5 +79,14 @@
     "date": "Apr 4, 2026",
     "text": "@TheBlueMatt @tierotiero @brian_trollz @satofishi Still don't understand why SIGHASH_SINGLE bug is not being fixed in this consensus cleanup",
     "url": "https://xcancel.com/1440000bytes/status/2040542265781915809"
+  },
+  {
+    "name": "Luke Dashjr",
+    "handle": "LukeDashjr",
+    "platform": "twitter",
+    "avatar": "img/lukedashjr.jpg",
+    "date": "Jun 29, 2026",
+    "text": "The case for deferring BIP54's coinbase nLockTime rule",
+    "url": "https://xcancel.com/LukeDashjr/status/2071707079488754173"
   }
 ]
