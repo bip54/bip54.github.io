@@ -85,4 +85,5 @@ img.avatar{display:block;object-fit:cover;background:var(--border);}
 [data-mode="dark"] .tweet--nostr{border-color:rgba(142,48,235,.55);}
 
 .site-footer{margin-top:auto;padding:24px;text-align:center;font-size:.8rem;color:var(--muted);border-top:1px solid var(--border);}
+.site-footer a{color:var(--accent);text-decoration:underline;}
 .err{color:#e0245e;text-align:center;padding:40px;}

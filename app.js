@@ -46,7 +46,7 @@ function card(t){
 
 async function load(){
   try{
-    const res = await fetch('posts.json');
+    const res = await fetch('posts.json?' + Date.now());
     const data = await res.json();
     feed.innerHTML = data.map(card).join('');
   }catch(e){
