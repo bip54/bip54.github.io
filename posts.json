@@ -6,7 +6,7 @@
     "avatar": "img/satofishi.jpg",
     "date": "Apr 4, 2026",
     "text": "@bitschmidty Bitcoin has far more than just four known vulnerabilities. These four issues addressed by BIP-54 are, in my view, relatively trivial historical edge cases. I don't believe they are significant enough to warrant the coordination cost, node upgrade effort, and community attention",
-    "url": "https://x.com/satofishi/status/2040402055764881612"
+    "url": "https://xcancel.com/satofishi/status/2040402055764881612"
   },
   {
     "name": "Chun",
@@ -15,7 +15,7 @@
     "avatar": "img/satofishi.jpg",
     "date": "Apr 4, 2026",
     "text": "@darosior @A86664949 Not just that. The current proposed fix for timewarp is ugly. I don't like that it only targets difficulty-changing blocks.",
-    "url": "https://x.com/satofishi/status/2040431646151704658"
+    "url": "https://xcancel.com/satofishi/status/2040431646151704658"
   },
   {
     "name": "Chun",
@@ -24,7 +24,7 @@
     "avatar": "img/satofishi.jpg",
     "date": "Apr 4, 2026",
     "text": "@A86664949 Timewarp attack: This issue has been known for a long. However, it doesn't provide significant benefit to a miner because you cannot predict who will mine the next block. The only practical use case is disrupting certain altcoins. Since it brings little real advantage to miners",
-    "url": "https://x.com/satofishi/status/2040411266162827272"
+    "url": "https://xcancel.com/satofishi/status/2040411266162827272"
   },
   {
     "name": "my",
@@ -33,7 +33,7 @@
     "avatar": "img/jeremyrubin.jpg",
     "date": "May 22, 2026",
     "text": "I'll be proposing in the coming weeks an alt to BIP-54 which does not eliminate 64 byte transactions and may also offer some other benefits to SPV clients. I'm not surprised that BIP-0054 went FINAL, but I'd like to register my dissent publicly as it seems the authors are",
-    "url": "https://x.com/JeremyRubin/status/2057944927930376596"
+    "url": "https://xcancel.com/JeremyRubin/status/2057944927930376596"
   },
   {
     "name": "Luke Dashjr",
@@ -42,7 +42,7 @@
     "avatar": "img/lukedashjr.jpg",
     "date": "Jun 29, 2026",
     "text": "@hampus_s Indeed, BIP54's \"let's fix a non-issue that wouldn't have even been a risk for 53 years, is impossible to exploit, and probably will be entirely impossible by the key date in 2079 - by permanently harming mining scalability\" is just stupid.",
-    "url": "https://x.com/LukeDashjr/status/2071676537980514389"
+    "url": "https://xcancel.com/LukeDashjr/status/2071676537980514389"
   },
   {
     "name": "jamesob",
@@ -51,7 +51,7 @@
     "avatar": "img/jamesob.jpg",
     "date": "Jun 29, 2026",
     "text": "Hang on are we talking about QC, GCC, or 110?",
-    "url": "https://x.com/jamesob/status/2071638934627430564"
+    "url": "https://xcancel.com/jamesob/status/2071638934627430564"
   },
   {
     "name": "/dev/fd0",
@@ -69,7 +69,7 @@
     "avatar": "img/markfriedenbach.jpg",
     "date": "May 22, 2026",
     "text": "@JeremyRubin Jeremy, please include an alternative to the time-warp fix in BIP 54, one that doesn't cut off forward blocks as an upgrade mechanism. It would be sufficient to limit the relative time-warp from the last block period rather than capping absolute time-warp.",
-    "url": "https://x.com/MarkFriedenbach/status/2057952508962906260"
+    "url": "https://xcancel.com/MarkFriedenbach/status/2057952508962906260"
   },
   {
     "name": "floppy.md",
@@ -78,6 +78,6 @@
     "avatar": "img/1440000bytes.png",
     "date": "Apr 4, 2026",
     "text": "@TheBlueMatt @tierotiero @brian_trollz @satofishi Still don't understand why SIGHASH_SINGLE bug is not being fixed in this consensus cleanup",
-    "url": "https://x.com/1440000bytes/status/2040542265781915809"
+    "url": "https://xcancel.com/1440000bytes/status/2040542265781915809"
   }
 ]
