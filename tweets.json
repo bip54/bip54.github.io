@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Chun",
+    "handle": "satofishi",
+    "platform": "twitter",
+    "avatar": "img/satofishi.jpg",
+    "date": "Apr 4, 2026",
+    "text": "@bitschmidty Bitcoin has far more than just four known vulnerabilities. These four issues addressed by BIP-54 are, in my view, relatively trivial historical edge cases. I don't believe they are significant enough to warrant the coordination cost, node upgrade effort, and community attention",
+    "url": "https://x.com/satofishi/status/2040402055764881612"
+  },
+  {
+    "name": "Chun",
+    "handle": "satofishi",
+    "platform": "twitter",
+    "avatar": "img/satofishi.jpg",
+    "date": "Apr 4, 2026",
+    "text": "@darosior @A86664949 Not just that. The current proposed fix for timewarp is ugly. I don't like that it only targets difficulty-changing blocks.",
+    "url": "https://x.com/satofishi/status/2040431646151704658"
+  },
+  {
+    "name": "Chun",
+    "handle": "satofishi",
+    "platform": "twitter",
+    "avatar": "img/satofishi.jpg",
+    "date": "Apr 4, 2026",
+    "text": "@A86664949 Timewarp attack: This issue has been known for a long. However, it doesn't provide significant benefit to a miner because you cannot predict who will mine the next block. The only practical use case is disrupting certain altcoins. Since it brings little real advantage to miners",
+    "url": "https://x.com/satofishi/status/2040411266162827272"
+  },
+  {
+    "name": "my",
+    "handle": "JeremyRubin",
+    "platform": "twitter",
+    "avatar": "img/jeremyrubin.jpg",
+    "date": "May 22, 2026",
+    "text": "I'll be proposing in the coming weeks an alt to BIP-54 which does not eliminate 64 byte transactions and may also offer some other benefits to SPV clients. I'm not surprised that BIP-0054 went FINAL, but I'd like to register my dissent publicly as it seems the authors are",
+    "url": "https://x.com/JeremyRubin/status/2057944927930376596"
+  },
+  {
+    "name": "Luke Dashjr",
+    "handle": "LukeDashjr",
+    "platform": "twitter",
+    "avatar": "img/lukedashjr.jpg",
+    "date": "Jun 29, 2026",
+    "text": "@hampus_s Indeed, BIP54's \"let's fix a non-issue that wouldn't have even been a risk for 53 years, is impossible to exploit, and probably will be entirely impossible by the key date in 2079 - by permanently harming mining scalability\" is just stupid.",
+    "url": "https://x.com/LukeDashjr/status/2071676537980514389"
+  },
+  {
+    "name": "jamesob",
+    "handle": "jamesob",
+    "platform": "twitter",
+    "avatar": "img/jamesob.jpg",
+    "date": "Jun 29, 2026",
+    "text": "Hang on are we talking about QC, GCC, or 110?",
+    "url": "https://x.com/jamesob/status/2071638934627430564"
+  },
+  {
+    "name": "/dev/fd0",
+    "handle": "npub1v6q…54nzyr",
+    "platform": "nostr",
+    "avatar": "img/devfd0.png",
+    "date": "Jun 26, 2026",
+    "text": "Yes it will be noticed publicly. But then why are we trying to fix it with BIP 54?",
+    "url": "https://njump.me/nevent1qvzqqqqqqypzqe5py69vu36g6sdyelxpueqqd7untw7rt9uzk0vkz8my65wxw5keqyt8wumn8ghj7un9d3shjtnddaehgu3wwp6kytcpzdmhxue69uhk7enxvd5xz6tw9ec82c30qqsygkjzg07qg3jte8997hah7qe5fmm69njj6qh4kh22czzzpzakpmshe6vqf"
+  }
+]

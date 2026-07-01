@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#15202b"/>
+  <rect width="1200" height="8" fill="#f7931a"/>
+  <text x="60" y="96" font-family="Liberation Sans, Arial, sans-serif" font-weight="bold" font-size="38" fill="#ffffff">bip54<tspan fill="#f7931a">.lol</tspan></text>
+  <text x="600" y="300" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-weight="bold" font-size="84" letter-spacing="-1" fill="#e7e9ea">NO CONSENSUS FOR</text>
+  <text x="600" y="392" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-weight="bold" font-size="84" letter-spacing="-1" fill="#dc2626">CONSENSUS CLEANUP</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Liberation Sans, Arial, sans-serif" font-size="30" fill="#8b98a5">A collection of objections to BIP54 from across the bitcoin community</text>
+</svg>

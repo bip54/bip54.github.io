@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bip54.lol — The case against Consensus Cleanup</title>
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="A collection of objections to BIP54 from across the bitcoin community">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="bip54.lol">
+<meta property="og:url" content="https://bip54.lol/">
+<meta property="og:title" content="No consensus for Consensus Cleanup">
+<meta property="og:description" content="A collection of objections to BIP54 from across the bitcoin community">
+<meta property="og:image" content="https://bip54.lol/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="bip54.lol — No consensus for Consensus Cleanup">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="No consensus for Consensus Cleanup">
+<meta name="twitter:description" content="A collection of objections to BIP54 from across the bitcoin community">
+<meta name="twitter:image" content="https://bip54.lol/og-image.png">
+<script>
+  (function(){
+    try{
+      var m = localStorage.getItem('bip54-mode');
+      if(!m) m = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-mode', m);
+    }catch(e){ document.documentElement.setAttribute('data-mode','light'); }
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <span class="brand-mark">bip54<span class="tld">.lol</span></span>
+    <span class="tagline">Voices against the soft fork</span>
+  </div>
+  <button id="mode-toggle" class="mode-btn" type="button" aria-label="Toggle light and dark mode" title="Toggle light / dark">
+    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+  </button>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 class="hero-title">NO CONSENSUS FOR <span>CONSENSUS CLEANUP</span></h1>
+    <p class="hero-sub">A collection of objections to BIP54 from across the bitcoin community</p>
+  </section>
+
+  <section id="feed" class="feed" aria-live="polite"></section>
+</main>
+
+<footer class="site-footer">
+  <p>Create an issue on github to add your post with the objections about BIP 54</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
