@@ -70,5 +70,14 @@
     "date": "May 22, 2026",
     "text": "@JeremyRubin Jeremy, please include an alternative to the time-warp fix in BIP 54, one that doesn't cut off forward blocks as an upgrade mechanism. It would be sufficient to limit the relative time-warp from the last block period rather than capping absolute time-warp.",
     "url": "https://x.com/MarkFriedenbach/status/2057952508962906260"
+  },
+  {
+    "name": "floppy.md",
+    "handle": "1440000bytes",
+    "platform": "twitter",
+    "avatar": "img/1440000bytes.png",
+    "date": "Apr 4, 2026",
+    "text": "@TheBlueMatt @tierotiero @brian_trollz @satofishi Still don't understand why SIGHASH_SINGLE bug is not being fixed in this consensus cleanup",
+    "url": "https://x.com/1440000bytes/status/2040542265781915809"
   }
 ]

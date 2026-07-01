@@ -44,15 +44,43 @@ function card(t){
   </article>`;
 }
 
+let cardsHtml = [];
+
+function layout(){
+  if(!cardsHtml.length) return;
+  const w = window.innerWidth;
+  const n = w < 640 ? 1 : w < 1000 ? 2 : 3;
+  feed.innerHTML = '';
+  const cols = [];
+  for(let i = 0; i < n; i++){
+    const c = document.createElement('div');
+    c.className = 'feed-col';
+    feed.appendChild(c);
+    cols.push(c);
+  }
+  for(const html of cardsHtml){
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html.trim();
+    const el = tmp.firstElementChild;
+    let min = cols[0];
+    for(const c of cols) if(c.offsetHeight < min.offsetHeight) min = c;
+    min.appendChild(el);
+  }
+}
+
 async function load(){
   try{
     const res = await fetch('posts.json?' + Date.now());
     const data = await res.json();
-    feed.innerHTML = data.map(card).join('');
+    cardsHtml = data.map(card);
+    layout();
   }catch(e){
-    feed.innerHTML = '<p class="err">Could not load tweets.json — serve this folder over HTTP.</p>';
+    feed.innerHTML = '<p class="err">Could not load posts.json — serve this folder over HTTP.</p>';
   }
 }
+
+let resizeTimer;
+window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(layout, 150); });
 
 const modeBtn = document.getElementById('mode-toggle');
 modeBtn.addEventListener('click', () => {
